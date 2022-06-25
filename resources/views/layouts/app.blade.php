@@ -46,5 +46,13 @@
                 </a>
             </div>
         </header>
+        <main class="mx-auto container flex max-w-custom ">
+            <div class="w-70" mr-5>
+
+            </div>
+            <div w-175>
+
+            </div>
+        </main>
     </body>
 </html>
