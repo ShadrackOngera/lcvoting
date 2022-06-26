@@ -47,11 +47,27 @@
             </div>
         </header>
         <main class="mx-auto container flex max-w-custom ">
-            <div class="w-70" mr-5>
+            <div class="w-70 mr-5" >
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi debitis ea enim id ipsam nemo neque nisi praesentium ullam unde vitae voluptates voluptatum! Asperiores debitis in odio suscipit? A hic ipsam libero, nesciunt officia praesentium quam quasi similique veniam!
+
 
             </div>
-            <div w-175>
+            <div class="w-175">
+                <nav class="items-center flex justify-between text-xs">
+                    <ul class="uppercase flex font-semibold border-b-4 pb-3 border-gray space-x-10">
+                        <li><a href="#" class="border-b-4 pb-3  border-blue">All Ideas (87)</a></li>
+                        <li><a href="#" class="border-b-4 pb-3  transition duration-150 ease-in text-gray-400 hover:border-blue border-blue">Considering (60)</a></li>
+                        <li><a href="#" class="border-b-4 pb-3  transition duration-150 ease-in text-gray-400 hover:border-blue border-blue">In Progress (7)</a></li>
+                    </ul>
+                    <ul class="uppercase flex font-semibold border-b-4 pb-3 border-gray space-x-10 ">
+                        <li><a href="#" class="border-b-4 pb-3  transition duration-150 ease-in text-gray-400 hover:border-blue border-blue">Implemented (5)</a></li>
+                        <li><a href="#" class="border-b-4 pb-3  transition duration-150 ease-in text-gray-400 hover:border-blue border-blue">Closed (5)</a></li>
+                    </ul>
+                </nav>
 
+                <div class="mt-8">
+                    {{ $slot }}
+                </div>
             </div>
         </main>
     </body>
